@@ -38,6 +38,8 @@ export function Form({ businessData, setBusinessData }) {
     setIsLoading(false);
   }
 
+  // The two functiosn below do not work correctly
+
   async function getURL(url) {
     // setIsLoading(true);
     const res = await fetch("/api/yelp-url", {
